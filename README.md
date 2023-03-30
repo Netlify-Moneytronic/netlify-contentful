@@ -1,11 +1,9 @@
-## Netlify Sales Hackathon 2023
+## Netlifty & Contentful CMS
 
-This is the repository from where you will begin the Sales Hackathon Project.
-
-Have Fun!!
+Visit the PDF within this repo for details on how to deploy. 
 
 ## View the demo site
-[Click here to explore the demo site that uses this repository as its source code.](https://andrea-next-contentful-demo.netlify.app/)
+[Click here to explore the demo site that uses this repository as its source code.](https://seanmct.sales-hackathon.com)
 
 ## Getting set up
 
@@ -25,8 +23,6 @@ Login or Signup to [Contentful](https://www.contentful.com/sign-up/)
 You will need a Github account to complete this project. 
 - [ ] Contentful account created?
 
-## Note!!!
-In order to save time, your work will be entirely done in your github repo and the Netlify UI. 
 
 ## One-click Deploy with Netlify (recommended)
 
@@ -40,9 +36,9 @@ Please click on the Depoly to Netlify button below. This will clone your repo to
 - `CONTENTFUL_PREVIEW_ACCESS_TOKEN` should be the **[Content Preview API](https://www.contentful.com/developers/docs/references/content-preview-api/) - access token** field of your API key
 - `CONTENTFUL_PREVIEW_SECRET` should be any value you want. It must be URL friendly as the dashboard will send it as a query parameter to enable preview mode
 
-The one-click deploy allows you to connect Netlify to your GitHub account to clone the `SalesHackathon` repository and deploy it automatically. Be sure to go to [Github](https://github.com/signup?source=login) and [Contentful](https://www.contentful.com/sign-up/) to sign up for an account before clicking the deploy button.
+The one-click deploy allows you to connect Netlify to your GitHub account to clone the `Netlify-Contentful` repository and deploy it automatically. Be sure to go to [Github](https://github.com/signup?source=login) and [Contentful](https://www.contentful.com/sign-up/) to sign up for an account before clicking the deploy button.
 
-[![Deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Netlify-Moneytronic/SalesHackathon)
+[![Deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Netlify-Moneytronic/netlify-contentful)
 
 By clicking the above button, you will be navigated to the Netlify’s direct deploy page with the project’s repository passed as parameters in the url. Click the **Connect to GitHub** button, name your repository and enter in this your Contentful Values as input as follows: 
 
