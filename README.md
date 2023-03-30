@@ -48,8 +48,8 @@ Once your site is live, navigate to Contentful to see that the content model is 
 
 After you deploy the site to Netlify you can configure it to build whenever new a new entry is published in Contentful. To configure this navigate to your site settings on Netlify and go to the Build & Deploy tab. Find the Build hooks section and add a new build hook. Name the build hook something like Contentful and select your production branch.
 
-![A screenshot of adding a build_hook in the Netlify UI](screenshot_create_build_hook.png)
+![A screenshot of adding a build_hook in the Netlify UI](/public/screenshot_create_build_hook.png)
 
 Copy the generated URL and navigate to Settings > Webhooks in your Contentful space. Under Webhook Templates click Add next to the Netlify template. Add the URL you just copied and click Create webhook.
 
-![A screenshot of adding a build hook in the Contentful UI](screenshot_configure_build_hook.png)
+![A screenshot of adding a build hook in the Contentful UI](/public/screenshot_configure_build_hook.png)
